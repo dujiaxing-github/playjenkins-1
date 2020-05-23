@@ -19,7 +19,6 @@ spec:
       - image: 192.167.138.54:5000/myweb:v4
         imagePullPolicy: Always
         name: myweb
-
 ---
 apiVersion: v1
 kind: Service
