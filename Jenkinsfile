@@ -18,7 +18,7 @@ pipeline {
     stage('Build image') {
       steps{
         script {
-          dockerImage = docker.build registry + ":v4"
+          dockerImage = docker.build registry + ":v4" 
         }
       }
     }
