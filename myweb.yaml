@@ -35,3 +35,4 @@ spec:
   selector:
     app: myweb
   type: NodePort
+  
