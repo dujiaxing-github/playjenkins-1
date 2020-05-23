@@ -16,7 +16,7 @@ spec:
         app: myweb  
     spec:
       containers:
-      - image: 192.167.138.54:5000/myweb:v3
+      - image: 192.167.138.54:5000/myweb:v4
         imagePullPolicy: Always
         name: myweb
 
